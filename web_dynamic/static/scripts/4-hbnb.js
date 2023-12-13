@@ -12,9 +12,9 @@ $( document ).ready(function() {
                 html += '<div class="title_box"><h2>' + '#' + place.name + '</h2>';
                 html += '<div class="price_by_night">$' + place.price_by_night + '</div></div>';
                 html += '<div class="information">';
-                html += '<div class="max_guest">' + place.max_guest + ' guests</div>';
-                html += '<div class="number_rooms">' + place.number_rooms + ' rooms</div>';
-                html += '<div class="number_bathrooms">' + place.number_bathrooms + ' bathrooms</div>';
+                html += '<div class="max_guest">' + place.max_guest + ' Guests</div>';
+                html += '<div class="number_rooms">' + place.number_rooms + ' Rooms</div>';
+                html += '<div class="number_bathrooms">' + place.number_bathrooms + ' Bathrooms</div>';
                 html += '</div>';
                 html += '<div class="description">' + place.description + '</div>';
                 html += '</article>';
@@ -68,9 +68,9 @@ $( document ).ready(function() {
                                 html += '<div class="title_box"><h2>' + '#' + place.name + '</h2>';
                                 html += '<div class="price_by_night">$' + place.price_by_night + '</div></div>';
                                 html += '<div class="information">';
-                                html += '<div class="max_guest">' + place.max_guest + ' guests</div>';
-                                html += '<div class="number_rooms">' + place.number_rooms + ' rooms</div>';
-                                html += '<div class="number_bathrooms">' + place.number_bathrooms + ' bathrooms</div>';
+                                html += '<div class="max_guest">' + place.max_guest + ' Guests</div>';
+                                html += '<div class="number_rooms">' + place.number_rooms + ' Rooms</div>';
+                                html += '<div class="number_bathrooms">' + place.number_bathrooms + ' Bathrooms</div>';
                                 html += '</div>';
                                 html += '<div class="description">' + place.description + '</div>';
                                 html += '</article>';
